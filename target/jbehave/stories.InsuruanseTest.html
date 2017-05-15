@@ -1,0 +1,57 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/InsuruanseTest.story</div>
+<div class="scenario">
+<h2>Scenario: TV Search</h2>
+<div class="step successful">When Выбран маркет</div>
+<div class="step successful">When Выбрана электроника</div>
+<div class="step failed">When Выбран раздел [Телевизоры] <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: invalid selector: Unable to locate an element with the xpath expression //div[@class='catalog-menu__list']/a[text(),'Телевизоры']')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='catalog-menu__list']/a[text(),'Телевизоры']')]' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'stroganov', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\B19A~1\AppData\Local\Temp\scoped_dir17488_18953}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1617fab700d62cf66db515d855951e69
+*** Element info: {Using=xpath, value=//div[@class='catalog-menu__list']/a[text(),'Телевизоры']')]}</span></div>
+<div class="step notPerformed">When Задана стоимость &quot;20000&quot; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When Выбрать происзодителя &quot;LG&quot; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When Выбрать происзодителя &quot;Samsung&quot; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then Элементов на странице &quot;12&quot; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When Запомнить название [1] элемента <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When Выполнен поиск сохраненного элемента <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step pending">Then Титул найденного товара равен запомненному значению
+
+!--When выбран пункт меню &quot;Страхование&quot;
+!--When выбран вид страхования &quot;ДМС&quot; <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">!--
+!--Then заголовок страницы - ДМС равен &quot;Добровольное медицинское страхование&quot;
+!--When выполнено нажати на кнопку Отправить заявку
+!--Then заголовок страницы - Заявка на ДМС равен &quot;Заявка на добровольное медицинское страхование&quot; <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">!--
+!--When заполняются поля: <span class="keyword pending">(PENDING)</span></div>
+<div class="comment">!--    |field|value|</div>
+<div class="comment">!--    |Имя|Иван|</div>
+<div class="comment">!--    |Фамилия|Иванов|</div>
+<div class="comment">!--    |Отчество|Иванович|</div>
+<div class="comment">!--    |Регион|Москва|</div>
+<div class="comment">!--    |Телефон|9191111111|</div>
+<div class="comment">!--    |Эл. почта|teststststs|</div>
+<div class="comment">!--    |Дата контакта|10.10.2017|</div>
+<div class="comment">!--    |Комментарии|Autotest|</div>
+<div class="step pending">!--
+!--Then значения полей равны: <span class="keyword pending">(PENDING)</span></div>
+<div class="comment">!--    |field|value|</div>
+<div class="comment">!--    |Имя|Иван|</div>
+<div class="comment">!--    |Фамилия|Иванов|</div>
+<div class="comment">!--    |Отчество|Иванович|</div>
+<div class="comment">!--    |Регион|Москва|</div>
+<div class="comment">!--    |Телефон|+7 (919) 111-11-11|</div>
+<div class="comment">!--    |Эл. почта|teststststs|</div>
+<div class="comment">!--    |Дата контакта|10.10.2017|</div>
+<div class="comment">!--    |Комментарии|Autotest|</div>
+<div class="step pending">!--
+!--Then в поле Эл. почта присутствует сообщение об ошибке Введите корректный email <span class="keyword pending">(PENDING)</span></div>

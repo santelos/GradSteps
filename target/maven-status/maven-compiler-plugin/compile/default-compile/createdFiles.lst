@@ -1,0 +1,16 @@
+ru\aplana\autotests\steps\MarketSteps.class
+ru\aplana\autotests\steps\DMSSteps.class
+ru\aplana\autotests\pages\BasePageObject.class
+ru\aplana\autotests\pages\MainPage.class
+ru\aplana\autotests\pages\TVPage.class
+ru\aplana\autotests\steps\MainPageSteps.class
+ru\aplana\autotests\steps\SendAppSteps.class
+ru\aplana\autotests\pages\YanMainPage.class
+ru\aplana\autotests\pages\ProductPage.class
+ru\aplana\autotests\pages\DMSPage.class
+ru\aplana\autotests\StoriesRunner.class
+ru\aplana\autotests\steps\YanMainStep.class
+ru\aplana\autotests\steps\ScenarioSteps.class
+ru\aplana\autotests\pages\MarketPage.class
+ru\aplana\autotests\pages\SendAppPage.class
+ru\aplana\autotests\steps\TVSteps.class

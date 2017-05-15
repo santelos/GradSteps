@@ -1,0 +1,7 @@
+#org.jbehave.core.embedder.StoryManager
+#Mon May 15 19:15:00 MSK 2017
+stories/SecondStory.story=0
+stories/InsuruanseTest.story=0
+threads=1
+total=0
+threadAverage=0
